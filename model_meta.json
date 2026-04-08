@@ -1,0 +1,25 @@
+{
+  "model_file": "model.json",
+  "datasets": [
+    "Dataset\\NF-CICIDS2018-v3.csv",
+    "Dataset\\NF-UNSW-NB15-v3.csv"
+  ],
+  "target_ratio": "90:10",
+  "sampled_rows": 800000,
+  "sampled_attack_ratio": 0.1,
+  "best_iteration": 349,
+  "best_score": 0.0398707901273918,
+  "recommended_threshold": 0.35000000000000014,
+  "val_f1": 0.9557380203989992,
+  "val_precision": 0.9816181315061273,
+  "val_recall": 0.9311875,
+  "features": [
+    "total_frames",
+    "total_bytes",
+    "duration",
+    "avg_pkt_size",
+    "pkts_per_sec",
+    "bytes_per_sec",
+    "protocol"
+  ]
+}
